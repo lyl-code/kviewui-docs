@@ -6,8 +6,8 @@
 
 适用广泛的基础单选
 
-<!-- ::: demo 适用广泛的基础单选 -->
-```html
+::: demo 适用广泛的基础单选
+```vue
 <template>
   <el-select v-model="value" placeholder="请选择">
     <el-option
@@ -35,3 +35,5 @@
     }
   }
 </script>
+
+:::

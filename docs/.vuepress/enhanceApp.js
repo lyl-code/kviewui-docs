@@ -5,6 +5,6 @@ export default async ({
     Vue
 }) => {
     if (typeof process === 'undefined') {
-        // Vue.use()
+        Vue.use(ElementUI)
     }
 }
