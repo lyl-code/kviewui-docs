@@ -1,0 +1,1 @@
+const e={key:"v-9d218bc6",path:"/components/select.html",title:"Select \u9009\u62E9\u5668",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u57FA\u672C\u7528\u6CD5",slug:"\u57FA\u672C\u7528\u6CD5",children:[]}],git:{updatedTime:1653208249e3},filePathRelative:"components/select.md"};export{e as data};

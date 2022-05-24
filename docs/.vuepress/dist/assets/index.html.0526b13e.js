@@ -1,0 +1,1 @@
+const e={key:"v-1020f180",path:"/components/",title:"\u5B89\u88C5",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"npm\u5B89\u88C5",slug:"npm\u5B89\u88C5",children:[]},{level:2,title:"CDN",slug:"cdn",children:[]}],git:{updatedTime:1653208249e3},filePathRelative:"components/README.md"};export{e as data};
