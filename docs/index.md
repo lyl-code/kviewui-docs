@@ -14,7 +14,7 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /guide/
+      link: /components/button
     - theme: alt
       text: 为什么选 KviewUI？
       link: /guide/why
