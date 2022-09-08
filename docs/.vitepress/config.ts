@@ -230,6 +230,14 @@ export default defineConfig({
             {
               text: 'Cell 单元格',
               link: '/components/cell'
+            },
+            {
+              text: 'Image 图片',
+              link: '/components/image'
+            },
+            {
+              text: 'Icon 图标',
+              link: '/components/icon'
             }
           ]
         }
