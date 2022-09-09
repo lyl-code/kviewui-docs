@@ -152,6 +152,7 @@
 | shadow  | 是否开启按钮阴影                                            | Boolean | `false`   |
 | shadow-size | 按钮阴影大小，可选值为 `sm` `md` `lg` `xl` `2xl`        | String |    |
 | throttle | 防抖节流，可选值为 `0` `1` `2`        | Number |  `0`  |
+| mode`通用属性`      | 页面模式，可选值为 `light` `dark`                   | String  | `light`         |
 
 ### Throttle 有效值
 | 值 | 说明 |
@@ -159,6 +160,12 @@
 | 0 | 关闭防抖节流 |
 | 1 | 开启节流 |
 | 2 | 开启防抖 |
+
+### Mode 有效值
+| 值 | 说明 |
+|----|------|
+| light | 明亮模式 |
+| dark | 暗黑模式 |
 
 ### Props 特殊说明
 

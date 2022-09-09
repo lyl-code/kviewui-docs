@@ -10,7 +10,7 @@
 
 ### 标签类型
 
-按钮支持 `primary`、`info`、`warning`、`danger`、`success` 五种主题类型，默认为 ''。
+标签支持 `primary`、`info`、`warning`、`danger`、`success` 五种主题类型，默认为 ''。
 
 ```vue
 <template>
@@ -326,6 +326,7 @@
 | checkable      | 是否为可选中标签                                         | Boolean  | `false`         |
 | default-checked      | 可选中标签的默认选中状态                   | Boolean  | `false`         |
 | auto-checked      | 是否自动选中                                         | Boolean  | `true`         |
+| mode`通用属性`      | 页面模式，可选值为 `light` `dark`                   | String  | `light`         |
 
 ### Type 有效值
 | 值 | 说明 |
@@ -355,6 +356,12 @@
 |----|------|
 | left | 左半圆角标签 |
 | right | 右半圆角标签 |
+
+### Mode 有效值
+| 值 | 说明 |
+|----|------|
+| light | 明亮模式 |
+| dark | 暗黑模式 |
 
 
 ### Slots
