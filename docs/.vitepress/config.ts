@@ -242,6 +242,10 @@ export default defineConfig({
             {
               text: 'Tag 标签',
               link: '/components/tag'
+            },
+            {
+              text: 'Badge 徽标',
+              link: '/components/badge'
             }
           ]
         }
