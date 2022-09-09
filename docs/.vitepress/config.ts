@@ -255,6 +255,10 @@ export default defineConfig({
             {
               text: 'Layout 布局',
               link: '/components/layout'
+            },
+            {
+              text: 'Grid 宫格',
+              link: '/components/grid'
             }
           ]
         }
