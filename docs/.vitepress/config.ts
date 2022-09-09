@@ -259,6 +259,10 @@ export default defineConfig({
             {
               text: 'Grid 宫格',
               link: '/components/grid'
+            },
+            {
+              text: 'Divider 分割线',
+              link: '/components/divider'
             }
           ]
         }
