@@ -151,7 +151,7 @@
 | content-margin           | 内容外间距                                                                                  | string            | -           |
 | radius-size           | 圆角大小，可选值为 `none` `xs` `sm` `base` `lg` `xl` `max`                        | string            | `none`           |
 | background-color           | 背景颜色                                                                                  | string            | -           |
-| background-color-level           | 背景颜色色阶，可参考 [主题](/guide/theme)                                  | string            | -           |
+| background-color-level           | 背景颜色色阶，可参考 <a href="/guide/theme">主题</a>                                 | string            | -           |
 | mode`通用属性`      | 页面模式，可选值为 `light` `dark`                   | String  | `light`         |
 
 ### RadiusSize 有效值
