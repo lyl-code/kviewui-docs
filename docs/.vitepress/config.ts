@@ -79,8 +79,8 @@ export default defineConfig({
     nav: [
       // { text: '指南', link: '/guide/', activeMatch: '/guide/' },
       { text: '组件', link: '/components/button', activeMatch: '/components/' },
-      { text: '工具', link: '/plugins/', activeMatch: '/tools/' },
-      { text: '模板', link: '/templates/', activeMatch: '/templates/' },
+      { text: '工具', link: '/tools/index', activeMatch: '/tools/' },
+      { text: '模板', link: '/templates/index', activeMatch: '/templates/' },
       {
         text: '相关链接',
         items: [
@@ -238,6 +238,10 @@ export default defineConfig({
             {
               text: 'Icon 图标',
               link: '/components/icon'
+            },
+            {
+              text: 'Tag 标签',
+              link: '/components/tag'
             }
           ]
         }

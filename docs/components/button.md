@@ -6,7 +6,7 @@
 
 ## 代码演示
 
-### 按钮类型
+### 主题色按钮
 
 按钮支持 `primary`、`info`、`warning`、`danger`、`success` 五种主题类型，默认为 ''。通过 `background-color` 属性可以设置按钮背景色，通过 `text-color` 属性可以设置按钮文字颜色。
 

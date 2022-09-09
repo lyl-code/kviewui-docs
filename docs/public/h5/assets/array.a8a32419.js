@@ -1,0 +1,1 @@
+const t=e=>{let n=[],r=0;for(let t=0;t<e.length;t++)if(e[t]instanceof Array)for(let r=0;r<e[t].length;r++)n.push(e[t][r]);return n.length&&(r=1,r+=t(n)),r},e=(t,e)=>{const n=[];for(let r=0;r<t.length;r+=e){const s=t.slice(r,r+e);n.push(s)}return n};export{t as g,e as s};
