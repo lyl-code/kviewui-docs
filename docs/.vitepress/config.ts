@@ -248,6 +248,15 @@ export default defineConfig({
               link: '/components/badge'
             }
           ]
+        },
+        {
+          text: '布局组件',
+          items: [
+            {
+              text: 'Layout 布局',
+              link: '/components/layout'
+            }
+          ]
         }
       ],
       '/config/': [
