@@ -267,6 +267,10 @@ export default defineConfig({
             {
               text: 'Space 间隔',
               link: '/components/space'
+            },
+            {
+              text: 'Sticky 粘性布局',
+              link: '/components/sticky'
             }
           ]
         }
