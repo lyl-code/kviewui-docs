@@ -273,6 +273,15 @@ export default defineConfig({
               link: '/components/sticky'
             }
           ]
+        },
+        {
+          text: '展示组件',
+          items: [
+            {
+              text: 'Spin 加载动画',
+              link: '/components/spin'
+            }
+          ]
         }
       ],
       '/config/': [
