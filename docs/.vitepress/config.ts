@@ -309,6 +309,10 @@ export default defineConfig({
             {
               text: 'Popup 弹出层',
               link: '/components/popup'
+            },
+            {
+              text: 'Snackbar 消息条',
+              link: '/components/snackbar'
             }
           ]
         }
