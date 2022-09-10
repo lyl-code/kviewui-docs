@@ -284,6 +284,10 @@ export default defineConfig({
             {
               text: 'Overlay 遮罩',
               link: '/components/overlay'
+            },
+            {
+              text: 'Animation 动效',
+              link: '/components/animation'
             }
           ]
         }
