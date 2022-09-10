@@ -292,6 +292,10 @@ export default defineConfig({
             {
               text: 'Collapse 折叠面板',
               link: '/components/collapse'
+            },
+            {
+              text: 'Skeleton 骨架屏',
+              link: '/components/skeleton'
             }
           ]
         }
