@@ -296,6 +296,10 @@ export default defineConfig({
             {
               text: 'Skeleton 骨架屏',
               link: '/components/skeleton'
+            },
+            {
+              text: 'Progress 进度条',
+              link: '/components/progress'
             }
           ]
         }
