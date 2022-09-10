@@ -263,6 +263,10 @@ export default defineConfig({
             {
               text: 'Divider 分割线',
               link: '/components/divider'
+            },
+            {
+              text: 'Space 间隔',
+              link: '/components/space'
             }
           ]
         }
