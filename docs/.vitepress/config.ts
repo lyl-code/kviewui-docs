@@ -302,6 +302,15 @@ export default defineConfig({
               link: '/components/progress'
             }
           ]
+        },
+        {
+          text: '反馈组件',
+          items: [
+            {
+              text: 'Popup 弹出层',
+              link: '/components/popup'
+            }
+          ]
         }
       ],
       '/config/': [
