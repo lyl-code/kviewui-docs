@@ -280,6 +280,10 @@ export default defineConfig({
             {
               text: 'Spin 加载动画',
               link: '/components/spin'
+            },
+            {
+              text: 'Overlay 遮罩',
+              link: '/components/overlay'
             }
           ]
         }
