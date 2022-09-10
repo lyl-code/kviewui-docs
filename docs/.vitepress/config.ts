@@ -288,6 +288,10 @@ export default defineConfig({
             {
               text: 'Animation 动效',
               link: '/components/animation'
+            },
+            {
+              text: 'Collapse 折叠面板',
+              link: '/components/collapse'
             }
           ]
         }
