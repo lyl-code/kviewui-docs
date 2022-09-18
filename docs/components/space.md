@@ -4,6 +4,8 @@
     
 在 `kui-space` 组件包裹下可以给行或者列增加内间距。
 
+<!--@include: ./tips/introduce.md-->
+
 ## 代码演示
 
 ### 基本用法

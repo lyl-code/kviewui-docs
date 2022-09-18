@@ -4,6 +4,8 @@
 
 用于标记关键词和主要内容。
 
+<!--@include: ./tips/introduce.md-->
+
 ## 代码演示
 
 以下代码演示中的 `kui-space` 为组件库的 <a href="/components/space">Space 间隔</a> 组件。

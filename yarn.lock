@@ -163,9 +163,9 @@
   resolved "https://registry.npmmirror.com/@types/web-bluetooth/-/web-bluetooth-0.0.15.tgz#d60330046a6ed8a13b4a53df3813c44942ebdf72"
   integrity sha512-w7hEHXnPMEZ+4nGKl/KDRVpxkwYxYExuHOYXyzIzCDzEZ9ZCGMAewulr9IqJu2LR4N37fcnb1XVeuZ09qgOxhA==
 
-"@vitejs/plugin-vue@^3.0.3":
+"@vitejs/plugin-vue@^3.1.0":
   version "3.1.0"
-  resolved "https://registry.npmmirror.com/@vitejs/plugin-vue/-/plugin-vue-3.1.0.tgz#3a423ea6943a450e806da412a911150e928598ed"
+  resolved "https://registry.npmjs.org/@vitejs/plugin-vue/-/plugin-vue-3.1.0.tgz#3a423ea6943a450e806da412a911150e928598ed"
   integrity sha512-fmxtHPjSOEIRg6vHYDaem+97iwCUg/uSIaTzp98lhELt2ISOQuDo2hbkBdXod0g15IhfPMQmAxh4heUks2zvDA==
 
 "@vue/compiler-core@3.2.38":
@@ -263,9 +263,9 @@
   resolved "https://registry.npmmirror.com/@vue/shared/-/shared-3.2.38.tgz#e823f0cb2e85b6bf43430c0d6811b1441c300f3c"
   integrity sha512-dTyhTIRmGXBjxJE+skC8tTWCGLCVc4wQgRRLt8+O9p5ewBAjoBwtCAkLPrtToSr1xltoe3st21Pv953aOZ7alg==
 
-"@vueuse/core@^9.1.0":
+"@vueuse/core@^9.1.1":
   version "9.2.0"
-  resolved "https://registry.npmmirror.com/@vueuse/core/-/core-9.2.0.tgz#58e3588b9bc5a69010aa9104b00056ee9ebff738"
+  resolved "https://registry.npmjs.org/@vueuse/core/-/core-9.2.0.tgz#58e3588b9bc5a69010aa9104b00056ee9ebff738"
   integrity sha512-/MZ6qpz6uSyaXrtoeBWQzAKRG3N7CvfVWvQxiM3ei3Xe5ydOjjtVbo7lGl9p8dECV93j7W8s63A8H0kFLpLyxg==
   dependencies:
     "@types/web-bluetooth" "^0.0.15"
@@ -488,6 +488,11 @@ nanoid@^3.3.4:
   resolved "https://registry.npmmirror.com/nanoid/-/nanoid-3.3.4.tgz#730b67e3cd09e2deacf03c027c81c9d9dbc5e8ab"
   integrity sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw==
 
+nprogress@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.npmjs.org/nprogress/-/nprogress-0.2.0.tgz#cb8f34c53213d895723fcbab907e9422adbcafb1"
+  integrity sha512-I19aIingLgR1fmhftnbWWO3dXc0hSxqHQHQb3H8m+K3TnEn/iSeTZZOyvKXWqQESMwuUVnatlCnZdLBZZt2VSA==
+
 path-parse@^1.0.7:
   version "1.0.7"
   resolved "https://registry.npmmirror.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
@@ -557,10 +562,10 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.npmmirror.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-vite@^3.0.8:
-  version "3.1.0"
-  resolved "https://registry.npmmirror.com/vite/-/vite-3.1.0.tgz#3138b279072941d57e76bcf7f66f272fc6a17fe2"
-  integrity sha512-YBg3dUicDpDWFCGttmvMbVyS9ydjntwEjwXRj2KBFwSB8SxmGcudo1yb8FW5+M/G86aS8x828ujnzUVdsLjs9g==
+vite@^3.1.0:
+  version "3.1.2"
+  resolved "https://registry.npmjs.org/vite/-/vite-3.1.2.tgz#6b080f928490b1a46465ed3cbb4815f31f1a5376"
+  integrity sha512-wTDKPkiVbeT+drTPdkuvjVIC/2vKKUc1w3qNOuwgpyvPCZF6fvdxB5v5WEcCsqaYea0zrwA4+XialJKCHM3oVQ==
   dependencies:
     esbuild "^0.15.6"
     postcss "^8.4.16"
@@ -569,20 +574,21 @@ vite@^3.0.8:
   optionalDependencies:
     fsevents "~2.3.2"
 
-vitepress@^1.0.0-alpha.13:
-  version "1.0.0-alpha.13"
-  resolved "https://registry.npmmirror.com/vitepress/-/vitepress-1.0.0-alpha.13.tgz#dfc0af0c624fbb81496ced9095b3f5ecb7a3a8ce"
-  integrity sha512-gCbKb+6o0g5wHt2yyqBPk7FcvrB+MfwGtg1JMS5p99GTQR87l3b7symCl8o1ecv7MDXwJ2mPB8ZrYNLnQAJxLQ==
+vitepress@^1.0.0-alpha.15:
+  version "1.0.0-alpha.15"
+  resolved "https://registry.npmjs.org/vitepress/-/vitepress-1.0.0-alpha.15.tgz#26ff8a8b5bae298ac6e47e5fec20d873a3a5960a"
+  integrity sha512-+pHJQCpnv0wVgLRyonisrj7Y77PVhbns2nTLxV9GkH3T+RTY/W2JmRatzBg5WciMaPyO8Ms6F3YElO5PULVv3w==
   dependencies:
     "@docsearch/css" "^3.2.1"
     "@docsearch/js" "^3.2.1"
-    "@vitejs/plugin-vue" "^3.0.3"
+    "@vitejs/plugin-vue" "^3.1.0"
     "@vue/devtools-api" "^6.2.1"
-    "@vueuse/core" "^9.1.0"
+    "@vueuse/core" "^9.1.1"
     body-scroll-lock "^4.0.0-beta.0"
+    nprogress "^0.2.0"
     shiki "^0.11.1"
-    vite "^3.0.8"
-    vue "^3.2.37"
+    vite "^3.1.0"
+    vue "^3.2.38"
 
 vscode-oniguruma@^1.6.1:
   version "1.6.2"
@@ -599,7 +605,7 @@ vue-demi@*:
   resolved "https://registry.npmmirror.com/vue-demi/-/vue-demi-0.13.11.tgz#7d90369bdae8974d87b1973564ad390182410d99"
   integrity sha512-IR8HoEEGM65YY3ZJYAjMlKygDQn25D5ajNFNoKh9RSDMQtlzCxtfQjdQgv9jjK+m3377SsJXY8ysq8kLCZL25A==
 
-vue@^3.2.37, vue@^3.2.38:
+vue@^3.2.38:
   version "3.2.38"
   resolved "https://registry.npmmirror.com/vue/-/vue-3.2.38.tgz#cda3a414631745b194971219318a792dbbccdec0"
   integrity sha512-hHrScEFSmDAWL0cwO4B6WO7D3sALZPbfuThDsGBebthrNlDxdJZpGR3WB87VbjpPh96mep1+KzukYEhpHDFa8Q==

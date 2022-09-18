@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // import MarkDownItCustomAnchor from './markdown-it-custom-anchor'
 
 const ogDescription = 'Next Generation Frontend Tooling'
-const ogImage = 'https://www.kviewui.com/logo/kviewui.png'
+const ogImage = 'https://kviewui.com/logo/kviewui.png'
 const ogTitle = 'KviewUI'
 const ogUrl = 'https://www.kviewui.com'
 
@@ -13,7 +13,7 @@ export default defineConfig({
   lang: 'zh-CN',
 
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '/kviewui-small2x.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/ogimage/kviewui.png' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: ogTitle }],
     ['meta', { property: 'og:image', content: ogImage }],
@@ -29,7 +29,7 @@ export default defineConfig({
   },
 
   themeConfig: {
-    logo: '/kviewui.png',
+    logo: '/ogimage/kviewui.png',
 
     editLink: {
       text: '为此页提供修改建议',
@@ -313,6 +313,10 @@ export default defineConfig({
             {
               text: 'Snackbar 消息条',
               link: '/components/snackbar'
+            },
+            {
+              text: 'Actionsheet 动作面板',
+              link: '/components/actionsheet'
             }
           ]
         }

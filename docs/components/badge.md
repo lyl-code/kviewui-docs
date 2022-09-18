@@ -4,6 +4,8 @@
 
 展示图标或文字右上角的红色圆点、数字或者文字，表示有新内容或新消息待处理。
 
+<!--@include: ./tips/introduce.md-->
+
 ## 代码演示
 
 以下代码演示中的 `kui-space` 为组件库的 <a href="/components/space">Space 间隔</a> 组件。

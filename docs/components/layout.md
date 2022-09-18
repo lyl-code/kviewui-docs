@@ -4,6 +4,8 @@
 
 Layout 提供了 `kui-row` 和 `kui-col` 两个辅助布局的组件，帮助您高效率的进行页面布局。
 
+<!--@include: ./tips/introduce.md-->
+
 ## 代码演示
 
 ### 基本用法

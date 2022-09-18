@@ -9,7 +9,7 @@ hero:
   text: 多端业务开发利器
   tagline: 基于UNI-APP框架的多端开发UI组件库，让您的开发效率加倍提升
   image:
-    # src: /logo-with-shadow.png
+    src: /ogimage/card3.png
     alt: KviewUI
   actions:
     - theme: brand

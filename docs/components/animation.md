@@ -4,6 +4,8 @@
 
 给元素添加常用的动画效果，Animation 基于 [animista](https://animista.net) 总结而来，目前支持 `10+` 种主轴动画形式。
 
+<!--@include: ./tips/introduce.md-->
+
 ## 代码演示
 
 ### 基本用法

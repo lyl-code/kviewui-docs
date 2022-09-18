@@ -4,6 +4,8 @@
 
 列表项，可组成列表。
 
+<!--@include: ./tips/introduce.md-->
+
 ## 代码演示
 
 ### 基本用法
