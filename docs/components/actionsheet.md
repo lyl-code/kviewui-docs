@@ -294,7 +294,7 @@
 | description | 描述信息 | String | -
 | cancel-text | 取消按钮文案 | String | -
 | close-on-click-overlay | 点击遮罩是否关闭 | Boolean | `true`
-| choose-item-color | 选中项的颜色，支持[主题](/guide/theme.md) | String | `primary`
+| choose-item-color | 选中项的颜色，支持<a href="/guide/theme">主题</a> | String | `primary`
 | choose-item-value | 选中项的文本内容 | String | -
 | mode `通用属性`      | 页面模式，可选值为 `light` `dark`                   | String  | `light`
 
