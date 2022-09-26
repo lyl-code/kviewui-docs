@@ -14,6 +14,7 @@ export default defineConfig({
 
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/ogimage/kviewui.png' }],
+    // ['link', { rel: 'stylesheet', href: '' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: ogTitle }],
     ['meta', { property: 'og:image', content: ogImage }],
@@ -33,7 +34,7 @@ export default defineConfig({
 
     editLink: {
       text: '为此页提供修改建议',
-      pattern: 'https://github.com/vitejs/docs-cn/edit/main/:path'
+      pattern: 'https://github.com/lyl-code/kviewui-docs/edit/master/docs/:path'
     },
 
     socialLinks: [
@@ -48,14 +49,20 @@ export default defineConfig({
       }
     ],
 
-    // algolia: {
-    //   appId: '5QZP0CA2NI',
-    //   apiKey: 'e3f26ceb102f301909138da7942627eb',
-    //   indexName: 'kviewui',
-    //   searchParameters: {
-    //     facetFilters: ['tags:cn']
-    //   }
-    // },
+    algolia: {
+      // appId: '5QZP0CA2NI',
+      // apiKey: 'e3f26ceb102f301909138da7942627eb',
+      // indexName: 'kviewui',
+      appId: '5QZP0CA2NI',
+      apiKey: 'e3f26ceb102f301909138da7942627eb',
+      indexName: 'kviewui',
+      // appId: 'R2IYF7ETH7',
+      // apiKey: '599cec31baffa4868cae4e79f180729b',
+      // indexName: 'docsearch',
+      // searchParameters: {
+      //   facetFilters: ['tags:cn']
+      // }
+    },
 
     // carbonAds: {
     //   code: 'CEBIEK3N',
